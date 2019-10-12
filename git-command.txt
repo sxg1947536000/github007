@@ -1,0 +1,9 @@
+## 初始化git仓库
+### 在项目目录里面右键bash here
+    - 第一步：git init
+    - 第二步：在项目目录中新建文件。
+
+### 就是在git中设置 自报家门
+- git config --global user.name  "sxg"   //设置名称
+- git config --global user.email "sxg1947536000@gmail.com"  //设置邮箱
+
