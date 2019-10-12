@@ -95,3 +95,19 @@ git reset --hard 【文件提交时的版本号】  /
 
 当前分支指的是`git branch`命令输出的前面有*星号的分支
 
+### git hub
+
+- https://github.com
+- 不是git，只是一个网站
+
+连接远程服务器：
+
+- 初次连接时需要进行ssh密钥  `ssh-keygen -t rsa -C "1947536000@qq.com" `连续按3次回车，即可得到密钥。“id_rsa.pub”这个文件保存在c盘下面，找到它，用记事本打开后，复制密钥。
+- 打开github.com网址，在个人中心，setings是部分找到SSH and GPG keys ，点击New ssh Key即可。
+-  3.验证是否成功，在git bash里输入下面的命令
+  `ssh -T git@github.com`
+- 4.出现`You've successfully authenticated, but GitHub does not provide shell access.`表示成功。
+
+### 上传文件
+
+- git push 【上传仓库的url】master    //master表示讲本地文件上传到服务器仓库的master分支下面。
